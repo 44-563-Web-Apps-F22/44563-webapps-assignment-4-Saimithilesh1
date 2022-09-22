@@ -1,90 +1,132 @@
-.speech{
-    color:black;
+.speech {
+    color: black;
     font-size: medium;
     font-style: oblique;
-    text-indent :20px;
+    text-indent: 20px;
 }
 
-.song{
-    color:black;
+.song {
+    color: black;
     font-size: medium;
-    font-style:italic;
-    text-indent :30px;
+    font-style: italic;
+    text-indent: 30px;
 }
 
-.direction{
+.direction {
     background-color: black;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.direction:hover{
+.direction:hover {
     background-color: aquamarine;
-    color:black;
-}
-.CHO{
-    color:red;
-    font-size: medium;
-    font-style:italic;
-    
+    color: black;
 }
 
-.MEL{
-    color:red;
+.CHO {
+    color: red;
     font-size: medium;
-    font-style:italic;
-    
+    font-style: italic;
+
 }
-.ALL{
-    color:blue;
+
+.MEL {
+    color: red;
     font-size: medium;
-    font-style:italic;
-    
+    font-style: italic;
+
 }
-.PRI{
-    color:blue;
+
+.ALL {
+    color: blue;
     font-size: medium;
-    font-style:italic;
-    
+    font-style: italic;
+
 }
-.SAC{
-    color:red;
+
+.PRI {
+    color: blue;
     font-size: medium;
-    font-style:italic;
-    
+    font-style: italic;
+
 }
-table{
+
+.SAC {
+    color: red;
+    font-size: medium;
+    font-style: italic;
+
+}
+
+table {
     border-style: solid;
 }
-th,td{
-    border:3px solid rgba(30, 50, 40, 0.455)
+
+th,
+td {
+    border: 3px solid rgba(30, 50, 40, 0.455)
 }
-th{
-    color:rgba(30, 70, 20, 0.455)
+
+th {
+    color: rgba(30, 70, 20, 0.455)
 }
-td{
-    color:rgba(24, 22, 22, 0.455)
+
+td {
+    color: rgba(24, 22, 22, 0.455)
 }
-tr:nth-child(even){
+
+tr:nth-child(even) {
     background-color: rgba(102, 237, 223, 0.745);
 }
-td{
+
+td {
     text-align: center;
 }
-h,td{
+
+h,
+td {
     width: 140px;
-    padding: 3px,3px,3px,3px;
-    margin: 20px,50px,0px,30px;
+    padding: 3px, 3px, 3px, 3px;
+    margin: 20px, 50px, 0px, 30px;
     background-color: rgba(30, 40, 50, 0.745);
     border-top: 2px solid rgba(30, 50, 48, 0.455);
     border-right: 3px solid rgba(30, 50, 46, 0.455);
     border-bottom: 4px solid rgba(30, 50, 46, 0.455);
     border-left: 5px solid rgba(30, 50, 46, 0.455);
 }
-.SAC{
+
+.SAC {
     text-shadow: 2px 2px 2px red;
 }
-.PRI{
+
+.PRI {
     text-shadow: 2px 2px 2px blue;
 }
 
+ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+}
+
+li {
+
+    float: left;
+
+}
+
+li a {
+
+    display: block;
+
+    padding: 8px;
+
+    background-color: #dddddd;
+
+}
