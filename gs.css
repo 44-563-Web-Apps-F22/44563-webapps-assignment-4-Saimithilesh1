@@ -47,4 +47,32 @@
     font-style:italic;
     
 }
+table{
+    border-style: solid;
+}
+th,td{
+    border:3px solid rgba(30, 50, 40, 0.455)
+}
+th{
+    color:rgba(30, 70, 20, 0.455)
+}
+td{
+    color:rgba(24, 22, 22, 0.455)
+}
+tr:nth-child(even){
+    background-color: rgba(102, 237, 223, 0.745);
+}
+td{
+    text-align: center;
+}
+h,td{
+    width: 140px;
+    padding: 3px,3px,3px,3px;
+    margin: 20px,50px,0px,30px;
+    background-color: rgba(30, 40, 50, 0.745);
+    border-top: 2px solid rgba(30, 50, 48, 0.455);
+    border-right: 3px solid rgba(30, 50, 46, 0.455);
+    border-bottom: 4px solid rgba(30, 50, 46, 0.455);
+    border-left: 5px solid rgba(30, 50, 46, 0.455);
+}
 
