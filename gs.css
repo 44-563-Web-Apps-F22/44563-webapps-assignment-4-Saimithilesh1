@@ -1,0 +1,50 @@
+.speech{
+    color:black;
+    font-size: medium;
+    font-style: oblique;
+    text-indent :20px;
+}
+
+.song{
+    color:black;
+    font-size: medium;
+    font-style:italic;
+    text-indent :30px;
+}
+
+.direction{
+    background-color: black;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.direction:hover{
+    background-color: aquamarine;
+    color:black;
+}
+.CHO{
+    color:red;
+    font-size: medium;
+    font-style:italic;
+    
+}
+
+.MEL{
+    color:red;
+    font-size: medium;
+    font-style:italic;
+    
+}
+.ALL{
+    color:blue;
+    font-size: medium;
+    font-style:italic;
+    
+}
+.PRI{
+    color:blue;
+    font-size: medium;
+    font-style:italic;
+    
+}
+
