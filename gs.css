@@ -81,4 +81,10 @@ h,td{
     border-bottom: 4px solid rgba(30, 50, 46, 0.455);
     border-left: 5px solid rgba(30, 50, 46, 0.455);
 }
+.SAC{
+    text-shadow: 2px 2px 2px red;
+}
+.PRI{
+    text-shadow: 2px 2px 2px blue;
+}
 
